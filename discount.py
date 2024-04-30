@@ -23,3 +23,17 @@ enter_discount = eval(input("Enter the discount you want: "))
 final_price = calculate_discount(enter_price, enter_discount)
 print("The final price of the product you are purchasing is: GHc",final_price)     
 
+list1 = [3 , 2 , 5 , 6 , 0 , 7, 9]
+
+sum = 0
+
+sum1 = 0
+
+for elem in list1:
+
+    if (elem % 2 == 0):
+        sum = sum + elem
+        continue
+if (elem % 3 == 0):
+    sum1 = sum1 + elem
+print(sum , end=" ")
